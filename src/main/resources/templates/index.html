@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<div style="display: grid;grid-template-columns: repeat(3,1fr)"  th:include="fragment/navbar::home_searchBar"></div>
+<h2>Hello from Index</h2><br>
+<a href="/products">products</a>
+</body>
+</html>
